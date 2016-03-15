@@ -142,11 +142,17 @@ em {
 	border: 2px solid #607581;
 }
 
+@media (min-width: 990px){
+#about-text{
+	margin-top: 5%;
+	
+}}
+
 /*portfolio responsive shit*/
-@media(min-width: 1200px)
+@media(min-width: 1200px){
 .container{
 	
-}
+}}
 
 .hovereffect {
 height:100%;
