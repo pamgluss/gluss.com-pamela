@@ -38,3 +38,7 @@ $(".navbar-right a").on('click', function(event){
     window.location.hash = hash;
   });
 });
+
+//Carousel
+
+$('.carousel').carousel()

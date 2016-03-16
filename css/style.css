@@ -74,7 +74,49 @@ nav li {
 	margin-right: 0!important;
 	width: 50%;
 }
+/*Responsive NavBar Stuff*/
+@media(max-width: 300px){
+	header h1 {
+		font-size: 150%;
+		text-align: center;
+	}
+}
+@media(max-width: 480px){
+	header h1{
+		font-size: 160%;
+		text-align:center;
+	}
+	header img{
+		
+	}
+	header.smaller h1{
+		font-size: 80%;
+		position: relative;
+		top: 5px;
+	}
+	.navbar-right{
+		width:100%;
+		text-align: center;
+		position: relative;
+		top:-25px;
+		
+	}
+	nav li {
+		display: inline-block;
+		font-size: 80%;
+	}
+}
 
+@media(max-width: 650px){
+	nav li {
+	display: inline-block;
+}
+
+.navbar-right{
+	margin-right: 0!important;
+	width: 50%;
+}
+}
 
 
 /*General Body / Container / Innertube */
@@ -126,6 +168,15 @@ em {
 	
 }
 
+/* Demo Reel / Welcome Message */
+
+@media(min-width: 980px){
+	#demo-reel h2{
+		font-size: 350%!important;
+	
+}
+}
+
 /* About Me */
 #about img {
 	margin: 0 auto;
@@ -144,17 +195,33 @@ em {
 	border: 2px solid #607581;
 }
 
+#animation-slider, #artwork-slider{
+	width: 300px;
+}
+
+/*portfolio responsive shit*/
+@media (max-width: 992px){
+	#animation-thumb, #artwork-thumb, #hobby-thumb{
+		display: none;
+	}
+	#animation-slider, #artwork-slider, #hobby-slider{
+		display: inline-block;
+	}
+}
+
+@media (min-width: 993px){
+	#animation-thumb, #artwork-thumb, #hobby-thumb{
+		display: inline-block;
+	}
+	#animation-slider, #artwork-slider, #hobby-slider{
+		display:none;
+	}
+}
 @media (min-width: 990px){
 #about-text{
 	margin-top: 5%;
-	
-}}
-
-/*portfolio responsive shit*/
-@media(min-width: 1200px){
-.container{
-	
-}}
+}
+}
 
 .hovereffect {
 height:100%;
@@ -248,27 +315,44 @@ transition-delay:.2s;
 #resume-head {
 	background-color:#2e2e2e;
 	color: #fffded;
-	
 }
 
 #resume-body{
 	text-align: left!important;
+	padding: 2% 5%;
+	background-color:#fffded;
+}
+
+.resume-small{
+	color:#2e2e2e;
+	font-size: 85%;
+}
+.resume-content{
+	padding-bottom:1%;
+}
+.resume-content p{
 	margin-left: 2%;
 	
 }
 
 /* Contact */
 form {
-	
+	text-align: left;
+	padding: 2% 4%;
 }
 form label {
 	color: #607581;
 	opacity: 0.54%;
 	font-weight: normal;
+
 }
 
 .form-control {
 	width: 75%!important;
+}
+
+.form-group input{
+	margin-right: 5%;
 }
 
 /* Footer */
