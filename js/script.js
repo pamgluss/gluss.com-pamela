@@ -16,12 +16,11 @@ function init() {
 
 window.onload = init();
 
-$('body').scrollspy({ target: '.pam-nav' })
 // Add scrollspy to <body>
-$('body').scrollspy({target: ".navbar", offset: 50}); 
+$('body').scrollspy({target: ".navbar-right", offset: 50})
 
 // Add smooth scrolling to all links inside a navbar
-$("#myNavbar a").on('click', function(event){
+$(".navbar-right a").on('click', function(event){
 
   // Prevent default anchor click behavior
   event.preventDefault();

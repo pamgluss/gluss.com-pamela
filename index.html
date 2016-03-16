@@ -9,6 +9,9 @@
 		<!-- Bootstrap Links -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		
+		<!-- jQuery-->
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
+		 
 		<script src="js/script.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -16,19 +19,20 @@
 		
 	</head>
 	
-	<body data-spy="scroll" data-target=".pam-nav" data-offset="20">
+	<body data-spy="scroll" data-target=".navbar-right" data-offset="20">
 		<header class="navbar-fixed-top">
-			<nav class="pam-nav">
+			<nav id="pam-nav">
 				<h1 class="navbar-left"><a href="#demo-reel">Pamela Gluss</a></h1>
-				<img src="img/fav-bee.png" class="navbar-left" alt="bee icon">
-				<ul class="navbar-right">
-					<li> <a href="#demo-reel"> Home </a> </li>
-					<li> <a href="#about"> About </a></li>
-					<li> <a href="#portfolio"> Portfolio </a>
-					</li>
-					<li> <a href="#resume"> Resume </a> </li>
-					<li> <a href="#contact"> Contact </a> </li>
-				</ul>
+				<img src="img/fav-bee.png" class="navbar-left" alt="bee icon" title="BZZZZZ">
+				<div class="nav">
+					<ul class="navbar-right">
+						<li> <a href="#demo-reel"> Home </a> </li>
+						<li> <a href="#about"> About </a></li>
+						<li> <a href="#portfolio"> Portfolio </a> </li>
+						<li> <a href="#resume"> Resume </a> </li>
+						<li> <a href="#contact"> Contact </a> </li>
+					</ul>
+				</div><!-- end of .nav-->
 			</nav>
 		</header>
 			
