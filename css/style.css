@@ -131,14 +131,16 @@ em {
 	margin: 0 auto;
 }
 
+#about .caption{
+	padding: 2%;
+}
+
 /* Portfolio */
 #animation-thumb, #hobby-thumb, #artwork-thumb{
-	width: 1000px;
 	display: inline-block;
 }
 
 #animation-thumb img {
-	margin-right: 1%;
 	border: 2px solid #607581;
 }
 
@@ -239,6 +241,20 @@ transform:translatey(0);
 .hovereffect:hover a.info {
 -webkit-transition-delay:.2s;
 transition-delay:.2s;
+}
+
+/* Resume Formatting */
+
+#resume-head {
+	background-color:#2e2e2e;
+	color: #fffded;
+	
+}
+
+#resume-body{
+	text-align: left!important;
+	margin-left: 2%;
+	
 }
 
 /* Contact */

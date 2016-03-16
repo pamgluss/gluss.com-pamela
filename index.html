@@ -47,11 +47,15 @@
 					<div class="col-md-1"></div>
 					<div class="col-md-5">
 						<div id="about-text">
-							<p> Glad I caught your interest! I attended the Rochester Institute of Technology majoring in Animation with a minor in Web Design and Development and a concentration in Psychology. </p>
+							<p> Glad I caught your interest!</p> 
+							
+							<p>I attended the Rochester Institute of Technology majoring in Animation with a minor in Web Design and Development and a concentration in Psychology. </p>
 						
 							<p> I grew to love animation as a child watching Digimon and playing Final Fantasy. I love video games, webcomics, riding motorcycles, exploring new places, meeting new cats and taking care of my own, telling lame jokes and learning new things.</p>
 							
-							<p>I am currently located in the San Francisco Bay Area. I’m in search of employment doing animation, character design or preproduction. I’m also in the market for work in web design and development and UX/UI design.</p>
+							<p>I am currently located in the <em>San Francisco Bay Area.</em> I’m in search of employment doing animation, character design or preproduction. I’m also in the market for work in web design and development and UX/UI design.</p>
+							
+							<p> Keep scrolling to see my portfolio!</p>
 						</div>
 					</div>
 				
@@ -67,8 +71,8 @@
 				<h2>Portfolio</h2>
 					
 				<h3>Animation</h3>
-					<div id="animation-thumb">
-						<div class="hovereffect">
+					<div id="animation-thumb" class="row">
+						<div class="hovereffect col-md-4">
 						<img src="img/thumb/queen-bee.png" alt="Queen Bee Thumbnail">
 							<div class="overlay">
 								<p> Queen Bee 2015 </p>
@@ -76,7 +80,7 @@
 							</div>
 						</div>
 						
-						<div class="hovereffect">
+						<div class="hovereffect col-md-4">
 						<img src="img/thumb/snowman-nonstop.png" alt="Snowman Nonstop Thumbnail">
 							<div class="overlay">
 								<p> Snowman Nonstop 2014</p>
@@ -84,27 +88,28 @@
 							</div>
 						</div>
 						
-						<div class="hovereffect">
+						<div class="hovereffect col-md-4">
 						<img src="img/thumb/stars-align.png" alt="Stars Align Thumbnail">
 							<div class="overlay">
 								<p> Stars Align 2013 </p>
 								<a class="info" href="https://vimeo.com/89410967">Watch It</a>
 							</div>
 						</div>
-					</div>
+					</div><!-- end of #animation-thumb-->
+					
 					<p><a href="videos.html">See More</a> </p>
 					
-				<div id="artwork-thumb">
+				<div id="artwork-thumb" class="row">
 					<h3>Artwork</h3>
-					<div class="hovereffect">
+					<div class="hovereffect col-md-4">
 						<img src="img/thumb/placeholder-thumb.png" alt="Character Design Artwork">
 							<div class="overlay">
-								<p> Queen Bee 2015 </p>
+								<p> Character Design </p>
 								<a class="info" href="#">See More</a>
 							</div>
 						</div>
 						
-						<div class="hovereffect">
+						<div class="hovereffect col-md-4">
 						<img src="img/thumb/placeholder-thumb.png" alt="Preproduction Artwork">
 							<div class="overlay">
 								<p> Preproduction</p>
@@ -112,19 +117,19 @@
 							</div>
 						</div>
 						
-						<div class="hovereffect">
+						<div class="hovereffect col-md-4">
 						<img src="img/thumb/placeholder-thumb.png" alt="Sketchbook">
 							<div class="overlay">
-								<p> Sketchbook </p>
+								<p> Illustrations </p>
 								<a class="info" href="https://vimeo.com/89410967">See More</a>
 							</div>
 						</div>
 				</div><!-- end of #artwork-thumb-->
 				<p><a href="videos.html#artwork"> See More</a> </p>
 				
-				<div id="hobby-thumb">
+				<div id="hobby-thumb" class="row">
 					<h3>Hobbies</h3>
-					<div class="hovereffect">
+					<div class="hovereffect col-md-4">
 						<img src="img/thumb/placeholder-thumb.png" alt="3D Modeling and Animation">
 							<div class="overlay">
 								<p> 3D Modeling and Animation </p>
@@ -132,7 +137,7 @@
 							</div>
 						</div>
 						
-						<div class="hovereffect">
+						<div class="hovereffect col-md-4">
 						<img src="img/thumb/placeholder-thumb.png" alt="Photography">
 							<div class="overlay">
 								<p> Photography</p>
@@ -140,7 +145,7 @@
 							</div>
 						</div>
 						
-						<div class="hovereffect">
+						<div class="hovereffect col-md-4">
 						<img src="img/thumb/placeholder-thumb.png" alt="Sketchbook">
 							<div class="overlay">
 								<p> Motorcycles and Other </p>
@@ -154,7 +159,67 @@
 			
 			<div class="home-section" id="resume">
 				<h2> Resume </h2>
-				<p><a href="#resume">Click here to toggle my HTML resume </a></p>
+				<a data-toggle="collapse" href="#resume-toggled" aria-expanded="false" aria-controls="resume-toggled">Click here to toggle my HTML resume </a>
+				<div class="collapse" id="resume-toggled">
+					<div id="resume-head">
+						<div class="resume-content row">
+							<div class="col-md-5">
+								<h3>Pamela Gluss</h3>
+								<p> pamela@gluss.com </p>
+								<p>www.gluss.com/pamela</p>
+								<p> (650) 464 7108 </p>
+							</div>
+							
+							<div class="col-md-2"></div>
+							
+							<div class="col-md-5">
+								<h3>2D Animator</h3>
+								<p>600 Old La Honda Road</p>
+								<p>Woodside, CA</p>
+								<p>94062</p>
+							</div>
+						</div>
+					</div><!-- end of #resume-head-->
+					
+					<div id="resume-body">
+						<div class="resume-content"><!-- Education-->
+							<h4> Education</h4>
+							<p> Rochester Institute of Technology: Graduated in May 2015 </p>
+							<p> BFA in Animation with a minor in Web Design and Development and a concentration in Psychology </p>
+						</div>
+						
+						<div class="resume-content"><!-- work experience-->
+							<h4> Work Experience</h4>
+							<p> Freelancer for Hedgehog Consulting, Avanti Pizza Belmont and Imnlightment Productions (January 2016 - Present): <span class="caption"> Assisting with design, marketing, branding, social media, photography and other tasks as needed to help small businesses grow and acquire new clientele.</span></p>
+							
+							<p>Office, Marketing and Web Dev Assistant at Imnlightment Productions (May 2015 - January 2016): <span class="caption"> Investigated story ideas, researched content and wrote copy for the website, edited and maintained the website using Wordpress and custom HTML and CSS, interfaced with potential clients, current clients and business partners to keep projects running smoothly and on time and picked up any other miscellaneous office tasks such as sending invoices, scheduling meetings or writing contracts. I also worked on graphics, design aesthetic and creating brochures to improve the professional appearance of the company. </span></p>
+							
+							<p> File Clerk at Jerome Marks Agency (May 2014 - August 2015): <span class="caption">Became extremely apt for detail as I kept hundreds of files alphabetized and sorted by date, created lists of clients whose policies needed to be worked with, printed insurance policies and delivered them to the correct agent, maintained the efficiency of the office and picked up any other office tasks. </span> </p>
+							
+							<p> Office Assistant at Facilities Management at RIT (December 2012 - August 2014): <span class="caption">Answered phones, processed work orders, took meeting notes, created schedules for other student workers, completed large scale data entry tasks and used Excel formulas and graphs to analyze them. My efforts allowed staff to track their hours better and create more efficient schedules.</span> </p>
+							
+							<p> Farmer's Market Vendor for Mighty Mouth Foods (Summer of 2010 and 2011): <span class="caption">Represented a company that sold dehydrated kale chips. I picked up the product, set up the stall, advertised the product to passersby, presented professional product information to potential buyers, handled the cash transactions and accounting at the end of each market and brought everything back to the company headquarters.</span> </p>
+						</div>
+						
+						<div class="resume-content"><!-- Applicable Skills-->
+							<h4>Applicable Skills</h4>
+							<p>Scriptwriting and Story Development: Scriptwriting I and II, Creating Writing, Senior Thesis Seminar:<span class="caption"> I know correct formatting for story scripts, have written several short films, worked with class to refine story based on constructive criticism. Experienced with individual and peer review of creative writing. Keen attention to detail.</span></p>
+							
+							<p>Preproduction including Character and Set Design, Storyboarding and Timing Animatics: 2D Animation I and II, Senior Thesis Seminar:<span class="caption"> Creating character turn-arounds, designed settings, used thumbnails and storyboards to track camera and story progresion, used animatics to illustrate timing and sound cues.</span></p>
+							
+							<p>2D Character Design and Animation<span class="caption"> in Flash, Toonboom Animate Pro 3 and TV Paint. Can animate on keys, free hand and with 2D puppet constructions in ToonBom and After Effects.</span></p>
+							
+							<p>Adobe Creative Suite <span class="caption">specialty in Photoshop and Premiere. Proficient with Flash, After Effects and Illustrator. Can ink, color, design, retouch, animate and edit using Creative Suite tools.</span></p>
+							
+							<p>Marketing and Social Media <span class="caption">Proficient with branding, creating targeted content and running social media campaigns. Knowledge of social media features from Facebook, Twitter, Instagram and Tumblr. Have used Hootsuite and Google Analytics to help market companies successfully.</span></p>
+							
+							<p>Web Design and Development <span class="caption">High proficiency using HTML5, CSS6, Bootstrap, jQuery and Wordpress to build custom websites. Some experience working with Joomla and Drupal. Basic knowledge of back-end languages JavaScript, PHP and Perl.</span></p>
+							
+							<p>Leadership and Self Sufficiency<span class="caption"> I can take on the role of a leader in group projects, self start an individual project, train new group members, stay on task and on schedule, find tasks that need to be done and do them.</span></p>
+							
+						</div>
+					</div><!-- end of #resume-body-->
+				</div><!-- end of #resume-toggled-->
 				<p>Or, download the <a href="#resume">PDF</a> </p>
 			</div> <!-- end of #resume-->
 			
