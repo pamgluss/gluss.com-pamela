@@ -53,6 +53,17 @@ header a:hover{
 	text-decoration: none;
 }
 
+header a:visited{
+	color: #fffded!important;
+	text-decoration: none!important;
+}
+
+header a:active{
+	color: #efd105!important;
+	text-decoration: none!important;
+	
+}
+
 nav {
 	padding: 0 50px;
 }
@@ -75,49 +86,6 @@ nav li {
 	width: 50%;
 }
 /*Responsive NavBar Stuff*/
-@media(max-width: 300px){
-	header h1 {
-		font-size: 150%;
-		text-align: center;
-	}
-}
-@media(max-width: 480px){
-	header h1{
-		font-size: 160%;
-		text-align:center;
-	}
-	header img{
-		
-	}
-	header.smaller h1{
-		font-size: 80%;
-		position: relative;
-		top: 5px;
-	}
-	.navbar-right{
-		width:100%;
-		text-align: center;
-		position: relative;
-		top:-25px;
-		
-	}
-	nav li {
-		display: inline-block;
-		font-size: 80%;
-	}
-}
-
-@media(max-width: 650px){
-	nav li {
-	display: inline-block;
-}
-
-.navbar-right{
-	margin-right: 0!important;
-	width: 50%;
-}
-}
-
 
 /*General Body / Container / Innertube */
 
@@ -146,6 +114,14 @@ h2 {
 
 .container a:hover{
 	text-decoration: none;
+}
+
+.fake-link{
+	color: #607581;
+}
+
+.fake-link:hover{
+	cursor:pointer;
 }
 
 .innertube{
@@ -189,10 +165,6 @@ em {
 /* Portfolio */
 #animation-thumb, #hobby-thumb, #artwork-thumb{
 	display: inline-block;
-}
-
-#animation-thumb img {
-	border: 2px solid #607581;
 }
 
 #animation-slider, #artwork-slider{
