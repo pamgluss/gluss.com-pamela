@@ -171,6 +171,29 @@ em {
 	width: 300px;
 }
 
+/* Videos Page */
+#portfolio-artwork-thumb h2{
+	padding: 2%;
+}
+
+#portfolio-hobby-thumb h2{
+	padding: 2%;
+}
+
+iframe {
+	padding: 1%;
+}
+
+#portfolio-artwork-thumb .fotorama{
+	max-width: 500px;
+	margin: 0 auto!important;
+}
+
+#portfolio-hobby-thumb .fotorama{
+	max-width: 500px;
+	margin: 0 auto!important;
+}
+
 /*portfolio responsive shit*/
 @media (max-width: 992px){
 	#animation-thumb, #artwork-thumb, #hobby-thumb{
@@ -325,6 +348,14 @@ form label {
 
 .form-group input{
 	margin-right: 5%;
+}
+
+#form-visible{
+	display: inline-block;
+}
+
+#form-nonVisible{
+	display: none;
 }
 
 /* Footer */
