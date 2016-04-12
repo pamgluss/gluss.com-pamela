@@ -42,3 +42,27 @@ $(".navbar-right a").on('click', function(event){
 //Carousel
 
 $('.carousel').carousel()
+
+//footer  hover
+
+$linkedin = "linkedin.png";
+$vimeo = "vimeo.png";
+$tumblr = "tumblr.png";
+
+$v_linkedin = document.getElementById("linkedin");
+$v_vimeo = document.getElementById("vimeo");
+$v_tumblr = document.getElementById("tumblr");
+
+$v_linkedin.onmouseover = function(){
+	$linkedin = "linkedin-hover.png";
+}
+
+$v_vimeo.onmouseover = function(){
+	$vimeo = "vimeo-hover.png";
+}
+
+$v_tumblr.onmouseover = function(){
+	$tumblr = "tumblr-hover.png";
+}
+
+

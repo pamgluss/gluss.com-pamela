@@ -2,20 +2,18 @@
 $name = $_REQUEST['name'];
 $email = $_REQUEST['email'];
 $message = $_REQUEST['message'];
-$formOutcome = "TEST";
-
+$success = "";
 
 if($email and $message){
+	header("Location: ../index.php#contact"); /* Redirect browser */
 	mail ("pamela@gluss.com", "Website Contact Form Mail", $message, "From: $email");
 	
-	header("Location: ../index.html#contact"); /* Redirect browser */
-	$formOutcome = "Thanks! I'll be in touch soon!";
+	
 	
 	
 } else {
-	header("Location: ../index.html#contact"); /* Redirect browser */
-	$formOutcome = "I'm sorry, try including an email address and message.";
-	
+	header("Location: ../index.php#contact"); /* Redirect browser */
+	$success = "Fuck you";
 	
 	}
 	

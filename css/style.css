@@ -312,6 +312,15 @@ transition-delay:.2s;
 	color: #fffded;
 }
 
+#resume-head-left {
+	text-align: left;
+}
+
+#resume-head-right {
+	text-align: right;
+	padding-top: 46px;
+}
+
 #resume-body{
 	text-align: left!important;
 	padding: 2% 5%;
@@ -350,13 +359,6 @@ form label {
 	margin-right: 5%;
 }
 
-#form-visible{
-	display: inline-block;
-}
-
-#form-nonVisible{
-	display: none;
-}
 
 /* Footer */
 
@@ -386,4 +388,26 @@ footer li {
 
 footer .align-right {
 	float: right;
+}
+
+.sprite{
+	width: 32px;
+	height: 32px;
+}
+
+#linkedin {
+	background-image: url('../img/linkedin.png');
+	background-repeat: no-repeat 0 0;
+}
+#vimeo {
+	background-image: url('../img/vimeo.png');
+	background-repeat: no-repeat 0 0;
+}
+#tumblr {
+	background-image: url('../img/tumblr.png');
+	background-repeat: no-repeat 0 0;
+}
+
+.sprite:hover{
+	background-position: -32px 0;
 }

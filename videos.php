@@ -45,11 +45,11 @@
 				<img src="img/fav-bee.png" class="navbar-left" alt="bee icon" title="BZZZZZ">
 				<div class="nav">
 					<ul class="navbar-right">
-						<li> <a href="index.php#demo-reel"> Home </a> </li>
-						<li> <a href="index.php#about"> About </a></li>
-						<li> <a href="#"> Portfolio </a> </li>
-						<li> <a href="index.php#resume"> Resume </a> </li>
-						<li> <a href="index.php#contact"> Contact </a> </li>
+						<li> <a href="index.php"> Home </a> </li>
+						<li> <a href="videos.php"> Animation</a></li>
+						<li> <a href="videos.php#portfolio-artwork-thumb">Artwork  </a> </li>
+						<li> <a href="videos.php#portfolio-hobby-thumb">Hobbies </a> </li>
+						<li> <a href="videos.php#contact">Contact</a> </li>
 					</ul>
 				</div><!-- end of .nav-->
 			</nav>
@@ -116,21 +116,21 @@
 				
 				<div id="portfolio-artwork-thumb">
 					<h2>Character Design</h2>
-					<div class="fotorama" id="character-art" data-maxheight="550">
-						<img src="img/portfolio/qb-characters1.jpg">
-						<img src="img/portfolio/qb-characters2.jpg">
-						<img src="img/portfolio/alia-chardes.jpg">
-						<img src="img/portfolio/faces-1.jpg">
-						<img src="img/portfolio/arch-1.jpg">
-						<img src="img/portfolio/bear.jpg">
-						<img src="img/portfolio/bismah-resized.jpg">
-						<img src="img/portfolio/faces-2.jpg">
-						<img src="img/portfolio/harlot.jpg">
-						<img src="img/portfolio/littlegirl.jpg">
+					<div class="fotorama" id="character-art" data-allowfullscreen="true" data-maxheight="550">
+						<img src="img/portfolio/qb-characters1.jpg" data-caption="Character designs for Queen Bee" alt="character designs for Queen Bee">
+						<img src="img/portfolio/qb-characters2.jpg" data-caption="Character Designs for Workers and Drones" alt="Character Designs for workers and drones">
+						<img src="img/portfolio/alia-chardes.jpg" data-caption="Design for Alia, main character for Prism Break" alt="Alia Design">
+						<img src="img/portfolio/faces-1.jpg" data-caption="Playing with face shapes" alt="Sketchbook faces and characters">
+						<img src="img/portfolio/arch-1.jpg" data-caption="Design for Archaeologist for 3D modeling" alt="Archaeologist">
+						<img src="img/portfolio/bear.jpg" data-caption="Design for bear character for 3D modeling" alt="bear character">
+						<img src="img/portfolio/bismah-resized.jpg" data-caption="Teenage Girl Character" alt="Teenage Girl Character">
+						<img src="img/portfolio/faces-2.jpg" data-caption="Playing with face shapes and new hairstyles" alt="Sketchbook Faces and characters cont'd">
+						<img src="img/portfolio/harlot.jpg" data-caption="Design for woman for 3D Modeling" alt="Harlot Design">
+						<img src="img/portfolio/littlegirl.jpg" data-caption="Little Girl" alt="Little girl">
 					</div>
 					
 					<h2>Storyboards and Preproduction</h2>
-					<div id="storyboards" class="fotorama" data-maxheight="550">
+					<div id="storyboards" class="fotorama" data-allowfullscreen="true" data-maxheight="550">
 						<img src="img/portfolio/qb-storyboard1.jpg">
 						<img src="img/portfolio/qb-storyboard2.jpg">
 						<img src="img/portfolio/qb-storyboard3.jpg">
@@ -139,7 +139,7 @@
 					</div>
 					
 					<h2>Concept Art and Setting</h2>
-					<div id="concept-art" class="fotorama" data-maxheight="550">
+					<div id="concept-art" class="fotorama" data-allowfullscreen="true" data-maxheight="550">
 						<img src="img/portfolio/composition-concept.jpg">
 						<img src="img/portfolio/arch-concept.jpg">
 						<img src="img/portfolio/arch-concept2.jpg">
@@ -148,7 +148,7 @@
 					</div>
 					
 					<h2> Illustrations </h2>
-					<div id="illustrations" class="fotorama" data-maxheight="550">
+					<div id="illustrations" class="fotorama" data-allowfullscreen="true" data-maxheight="550">
 						<img src="img/portfolio/sorc-illus.jpg">
 						<img src="img/portfolio/words-illus.jpg">
 						<img src="img/portfolio/marilyn-illus.jpg">
@@ -156,11 +156,11 @@
 					</div>
 					
 					<h2>Sketchbook</h2>
-					<div id="sketchbook" class="fotorama" data-maxheight="550">
+					<div id="sketchbook" class="fotorama" data-allowfullscreen="true" data-maxheight="550">
 						<img src="img/portfolio/selfportrait-sketch.jpg">
 						<img src="img/portfolio/selfportrait-sketch2.jpg">
 						<img src="img/portfolio/selfportrait-sketch3.jpg">
-						<img src="img/portfolio/skull-sketch.jpg">
+						<img src="img/portfolio/skull-sketch1.jpg">
 						<img src="img/portfolio/skull-sketch2.jpg">
 					</div><!-- end of #sketchbook div-->
 				
@@ -168,39 +168,76 @@
 				
 				<div id="portfolio-hobby-thumb">
 					<h2>3D Modeling and Animation</h2>
-					<div id="3D" class="fotorama" data-maxheight="550">
+					<div id="3D" class="fotorama" data-allowfullscreen="true" data-maxheight="550">
 					<p> Coming soon!</p>
 					</div>
 					
 					<h2> Photography</h2>
-					<div id="photography" class="fotorama" data-maxheight="550">
+					<div id="photography" class="fotorama" data-allowfullscreen="true" data-maxheight="550">
 						<img src="img/portfolio/courtney-photo.jpg">
 						<img src="img/portfolio/pamela-photo.jpg">
 						<img src="img/portfolio/chantal-photo.jpg">
+						<img src="img/portfolio/sugarapp/banner.jpg" data>
 					</div>
 					
 					<h2>Design</h2>
-					<div id="graphic-design" class="fotorama" data-maxheight="550">
+					<div id="graphic-design" class="fotorama" data-allowfullscreen="true" data-maxheight="550">
 						<img src="img/portfolio/businesscard1.jpg">
 						<img src="img/portfolio/businesscard2.jpg">
 						<img src="img/portfolio/businesscard3.jpg">
 						<img src="img/portfolio/urbanstem-vc.jpg">
 						<img src="img/portfolio/generationoutreach-home.jpg">
 						<img src="img/portfolio/generationoutreach-programs.jpg">
+						
 					</div>
 				</div> <!--end of #portfolio-hobby-thumb-->
-			</div>
+				
+				<div id="contact">
+				<h2> Contact </h2>
+				<p>I would love to hear from you!</p>
+				<p>Have questions about things I’m currently working on? Want to work on something together? Get in touch.</p>
+					<form action="php/sendmail.php" method="post">
+						<div class="form-group">
+							<label for="name">Name:</label>
+							<input type="text" name="name" maxlength="50">
+						</div>
+						<div class="form-group">
+							<label for="email">Email:</label>
+							<input type="text" name="email" maxlength="50">
+						</div>
+						
+						<div class="form-group">
+							<label for "messsage">Message: </label>
+							<textarea class="form-control" name="message" rows="3" maxlength="2000"></textarea>
+						</div>
+						
+						<div class="form-group">
+							<input type="submit" value="Send">
+						</div>
+					</form>
+					
+				<p id="form-outcome">
+					<?php 
+					$success;
+					?> 
+				</p>
+				
+				<p> Or, just send me an email at <a href="mailto:pamela@gluss.com?Subject=Website%20Contact" target="_top">pamela@gluss.com</a></p>
+				<p> Let's talk!</p>
+			</div> <!-- end of #contact-->
+			
+			</div><!-- end of innertube-->
 		
 		</div><!-- end of container-->
 		
-		<footer>
+			<footer>
 				<ul>
 					<li><p> © 2016 Pamela Gluss </p></li>
 					
 					<span class="align-right">
-					<li><a href="https://www.linkedin.com/in/pamelagluss"><img src="img/linkedin.png" alt="LinkedIn"> </a> </li>
-					<li><a href="http://vimeo.com/user26048530"><img src="img/vimeo.png" alt="Vimeo" /></a> </li>
-					<li><a href="http://pamimation.tumblr.com/"><img src="img/tumblr.png" alt="Tumblr"> </a> </li>
+					<li><a href="https://www.linkedin.com/in/pamelagluss"><div id="linkedin" class="sprite"></div></a> </li>
+					<li><a href="http://vimeo.com/user26048530"><div id="vimeo" class="sprite"></div></a> </li>
+					<li><a href="http://pamimation.tumblr.com/"><div id="tumblr" class="sprite"></div></a> </li>
 					</span>
 				</ul>
 			</footer>

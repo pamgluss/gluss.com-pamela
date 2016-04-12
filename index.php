@@ -312,21 +312,23 @@
 				<div class="collapse" id="resume-toggled">
 					<div id="resume-head">
 						<div class="resume-content row">
-							<div class="col-md-5">
+							<div class="col-md-1"></div><!-- padding div-->
+							
+							<div class="col-md-4" id="resume-head-left">
 								<h3>Pamela Gluss</h3>
-								<p> pamela@gluss.com </p>
+								<p>pamela@gluss.com </p>
 								<p>gluss.com/pamela</p>
-								<p> (650) 464 7108 </p>
+								<p>(650) 464 7108 </p>
 							</div>
 							
-							<div class="col-md-2"></div>
+							<div class="col-md-2"></div><!-- padding div-->
 							
-							<div class="col-md-5">
-								<h3>2D Animator</h3>
+							<div class="col-md-4" id="resume-head-right">
 								<p>600 Old La Honda Road</p>
 								<p>Woodside, CA</p>
 								<p>94062</p>
 							</div>
+							<div class="col-md-1"></div> <!-- padding div-->
 						</div>
 					</div><!-- end of #resume-head-->
 					
@@ -403,7 +405,9 @@
 					</form>
 					
 				<p id="form-outcome">
-					<?php echo $formOutcome; ?> 
+					<?php 
+					$success;
+					?> 
 				</p>
 				
 				<p> Or, just send me an email at <a href="mailto:pamela@gluss.com?Subject=Website%20Contact" target="_top">pamela@gluss.com</a></p>
@@ -420,9 +424,9 @@
 					<li><p> © 2016 Pamela Gluss </p></li>
 					
 					<span class="align-right">
-					<li><a href="https://www.linkedin.com/in/pamelagluss"><img src="img/linkedin.png" alt="LinkedIn"> </a> </li>
-					<li><a href="http://vimeo.com/user26048530"><img src="img/vimeo.png" alt="Vimeo" /></a> </li>
-					<li><a href="http://pamimation.tumblr.com/"><img src="img/tumblr.png" alt="Tumblr"> </a> </li>
+					<li><a href="https://www.linkedin.com/in/pamelagluss"><div id="linkedin" class="sprite"></div></a> </li>
+					<li><a href="http://vimeo.com/user26048530"><div id="vimeo" class="sprite"></div></a> </li>
+					<li><a href="http://pamimation.tumblr.com/"><div id="tumblr" class="sprite"></div></a> </li>
 					</span>
 				</ul>
 			</footer>
