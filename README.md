@@ -1,2 +1,2 @@
-# pamela.gluss.com
-Pam's Personal Portfolio 
+### Pam's Website
+
