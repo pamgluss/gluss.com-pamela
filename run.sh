@@ -1,5 +1,7 @@
 #!/bin/sh
 
+## Using FTP with Bash is... not recommended but let's see if we can do it
+
 echo "*** Install Linuxbrew ***"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 
@@ -15,7 +17,6 @@ HOST=$GODADDY_HOST
 USER=$GODADDY_USER
 PASSWD=$GODADDY_PASSWORD
 
-echo '** Ftp to Godaddy... **'
 ftp -pinv $HOST <<END_SCRIPT
 quote USER $USER
 quote PASS $PASSWD
@@ -24,14 +25,17 @@ hash
 mput *.html
 mput *.md
 
+mkdir css/
 cd css/
 lcd css/
 mput *.css
 
+mkdir ../js/
 cd ../js/
 lcd ../js/
 mput *.js
 
+mkdir ../img/
 cd ../img/
 lcd ../img/
 mput *.*
@@ -39,5 +43,3 @@ mput *.*
 bye
 END_SCRIPT
 exit 0
-
-echo '** Upload finished, build complete **'
