@@ -9,3 +9,9 @@ Built with React
 ### Running Locally
 - `npm start`
 - Visit localhost:3006
+
+### Deploying
+
+Legacy - Uploading to GoDaddy requires FTP access with Filezilla.
+
+Under Construction: TravisCI will run tests and deploy the app to Google Cloud for you on merge.
