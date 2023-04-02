@@ -33,11 +33,22 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Install Package
+        # You may pin to the exact commit or the version.
+        # uses: ConorMacBride/install-package@3e7ad059e07782ee54fa35f827df52aae0626f30
+        uses: ConorMacBride/install-package@v1.1.0
+        with:
+          # Packages to install with brew on macOS
+          brew: node
+      - name: Run npm install
+        run: npm install
+      - name: Build production assets into /build/
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          # Upload public/
-          path: './public'
+          # Upload build/
+          path: './build'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
