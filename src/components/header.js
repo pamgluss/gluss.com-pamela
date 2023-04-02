@@ -16,10 +16,10 @@ const Header = () => {
             </span>
 
             <NavLink to='/' className='col-xs-1'>Home</NavLink>
+            <NavLink to='/about-site' className='col-xs-1'>About Site</NavLink>
             <a className='col-xs-2' href='https://www.linkedin.com/in/pamelagluss/'>LinkedIn</a>
             <a className='col-xs-1' href='https://github.com/pamgluss'>Github</a>
-            <a className='col-xs-2' href='http://wereonlyalittlelost.com/'>Adventure Blog</a>
-            <NavLink to='/about-site' className='col-xs-1'>About Site</NavLink>
+            <a className='col-xs-2' href='http://wereonlyalittlelost.com/'>Adventure Blog</a>            
         </nav>
     </header>
   )
