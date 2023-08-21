@@ -14,7 +14,7 @@ const LandingPage = () => {
             
             <span className='col-md-4'>
                 <p>
-                    My name is Pam. I'm a software engineer living in San Francisco, California. I'm currently <a href='https://slack.com/'>loving it at Slack</a> working on the Build team. 
+                    My name is Pam. I'm a software engineer living in San Francisco, California. I'm currently <a href='https://slack.com/'>loving it at Slack</a> working on the Developer Workspaces team. 
                 </p>
                 <p>
                     For fun, I love to travel, ride my motorcycle, watch movies and tv shows, draw, paint, read, knit, and so much more!
