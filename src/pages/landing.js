@@ -12,7 +12,7 @@ const LandingPage = () => {
                 <div className="hexagon hexagon1"><div className="hexagon-in1"><div className="hexagon-in2"></div></div></div>
             </span>
             
-            <span className='col-md-4'>
+            <span className='col-md-4 introduction-content'>
                 <p>
                     My name is Pam. I'm a software engineer living in San Francisco, California. I'm currently <a href='https://slack.com/'>loving it at Slack</a> working on the Developer Workspaces team. 
                 </p>

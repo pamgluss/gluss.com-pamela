@@ -7,19 +7,27 @@ import './header.css'
 const Header = () => {
   return (
     <header>
-        <nav className='row center-xs middle-xs'>
-            <span className='row middle-xs'>
-                <h1>Pamela Gluss</h1>
-                <span>
-                    <img src={beePNG} alt='BZZZZZ'/>
-                </span>
-            </span>
+        <nav className='row middle-xs'>
+            <div className='col-md-4'>
+              <div className='box'>
+                <div className='row middle-xs'>
+                  <h1>Pamela Gluss</h1>
+                  <img id='beeIcon' src={beePNG} alt='BZZZZZ'/>
+                </div>
+              </div>
+            </div>
 
-            <NavLink to='/' className='col-xs-1'>Home</NavLink>
-            <NavLink to='/about-site' className='col-xs-1'>About Site</NavLink>
-            <a className='col-xs-2' href='https://www.linkedin.com/in/pamelagluss/'>LinkedIn</a>
-            <a className='col-xs-1' href='https://github.com/pamgluss'>Github</a>
-            <a className='col-xs-2' href='http://wereonlyalittlelost.com/'>Adventure Blog</a>            
+            <span className='col-md-6 navigation-links'>
+              <div className='box'>
+                <div className='row end-xs'>
+                  <NavLink to='/' className='col-xs-2'>Home</NavLink>
+                  <NavLink to='/about-site' className='col-xs-2'>About Site</NavLink>
+                  <a className='col-xs-2' href='https://www.linkedin.com/in/pamelagluss/'>LinkedIn</a>
+                  <a className='col-xs-2' href='https://github.com/pamgluss'>Github</a>
+                  <a className='col-xs-2' href='http://wereonlyalittlelost.com/'>Adventure Blog</a>      
+                </div>
+              </div>
+            </span>    
         </nav>
     </header>
   )
