@@ -17,9 +17,6 @@ const LandingPage = () => {
                     My name is Pam. I'm a software engineer living in San Francisco, California. I'm currently <a href='https://slack.com/'>loving it at Slack</a> working on the Developer Workspaces team. 
                 </p>
                 <p>
-                    For fun, I love to travel, ride my motorcycle, watch movies and tv shows, draw, paint, read, knit, and so much more!
-                </p>
-                <p>
                     What's with the bees? When I was Rochester Institute of Technology studying animation, I took a Bees and Beekeeping course. It was so interesting learning about bees and how important they are that I made my senior thesis about bees!
                 </p>
             </span>
