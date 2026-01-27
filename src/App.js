@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import { Route, Routes, HashRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import Layout from "./components/layout";
 import LandingPage from "./pages/landing";
@@ -11,7 +11,7 @@ import GamesPage from "./pages/games";
 class App extends Component {
   render() {
     return (
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Layout>
           <Routes>
             <Route path="/" element={<LandingPage />} />
@@ -19,7 +19,7 @@ class App extends Component {
             <Route path="/games" element={<GamesPage />} />
           </Routes>
         </Layout>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
