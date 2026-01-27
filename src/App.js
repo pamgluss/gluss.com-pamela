@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import Layout from "./components/layout";
 import LandingPage from "./pages/landing";
@@ -11,7 +11,7 @@ import GamesPage from "./pages/games";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter basename='/'>
+      <BrowserRouter basename={"/"}>
         <Layout>
           <Routes>
             <Route path="/" element={<LandingPage />} />
