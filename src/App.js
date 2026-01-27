@@ -11,7 +11,7 @@ import GamesPage from "./pages/games";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename='/'>
         <Layout>
           <Routes>
             <Route path="/" element={<LandingPage />} />
